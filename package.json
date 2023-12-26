@@ -1,0 +1,27 @@
+{
+  "name": "dall-e-image-generation",
+  "version": "1.0.0",
+  "description": "A project to generate, edit and create variations of images using OpenAI's DALL·E API",
+  "main": "image_generation.js",
+  "scripts": {
+    "start": "node image_generation.js",
+    "edit": "node image_edit.js",
+    "variation": "node image_variation.js",
+    "error": "node error_handling.js"
+  },
+  "dependencies": {
+    "openai": "^0.27.0",
+    "axios": "^0.26.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "openai",
+    "dall-e",
+    "image-generation",
+    "image-edit",
+    "image-variation"
+  ],
+  "author": "",
+  "license": "ISC"
+}
